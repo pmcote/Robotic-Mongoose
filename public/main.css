@@ -1,0 +1,11 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#punct:after {
+  content: ', '
+}
+
+#punct:last-of-type:after {
+  content: ''
+}

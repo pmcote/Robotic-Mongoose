@@ -1,0 +1,10 @@
+{{#each robots}}
+<p> <b>Name:</b> {{name}} <br/>
+
+  <b>Abilities:</b>
+  {{#each abilities}}
+  <span id="punct">{{this}}</span>
+  {{/each}} <br/>
+
+  <b>Is This Robot Evil?</b> {{isEvil}} </p>
+{{/each}}
